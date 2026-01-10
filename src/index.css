@@ -1,0 +1,18 @@
+.logo img {
+  width: 120px;      /* reduce or increase */
+  height: auto;      /* keeps aspect ratio */
+}
+
+.amazon-icon {
+  width: 40px;      /* reduce or increase */
+  height: auto;
+}
+.flipkart-icon {
+  width: 20px;      /* reduce or increase */
+  height: auto;
+}
+.hero-image img {
+  width: 400px;
+  height: auto;
+  
+}
