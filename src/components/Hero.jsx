@@ -14,14 +14,28 @@ return (<main className="hero container">
   <p>Also Available On</p>
 </div>
 <div className="brand-icons">
-  <img className="amazon-icon" src="/images/Amazon.png" alt="Amazon-logo"/>
-  <img className="flipkart-icon" src="/images/flipkart.png" alt="Flipkart-logo"/>
+ <img
+  className="amazon-icon"
+  src={`${import.meta.env.BASE_URL}images/Amazon.png`}
+  alt="Amazon-logo"
+/>
+
+<img
+  className="flipkart-icon"
+  src={`${import.meta.env.BASE_URL}images/flipkart.png`}
+  alt="Flipkart-logo"
+/>
+
 </div>
   </div>
 
-  
+
   <div className="hero-image">
-     <img src="/images/shoes.png" alt="Shoes-logo"/>
+    <img
+  src={`${import.meta.env.BASE_URL}images/shoes.png`}
+  alt="Shoes-logo"
+/>
+
   </div>
 </main>
 

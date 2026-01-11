@@ -2,7 +2,11 @@ const Navigation=()=>{
 return (
   <nav className="container">
         <div className="logo">
-          <img src="/images/brand_logo.png" alt="logo" />
+          <img
+  src={`${import.meta.env.BASE_URL}images/brand_logo.png`}
+  alt="logo"
+/>
+
         </div>
         <ul>
           <li>MENU</li>
